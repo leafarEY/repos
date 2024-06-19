@@ -1,0 +1,43 @@
+const caixaPrincipal = document.querySelector(".caixa-principal");
+const caixaPerguntas = document.querySelector(".caixa-perguntas");
+const caixaAlternativas = document.querySelector(".caixa-alternativas");
+const caixaResultado = document.querySelector(".caixa-resultado");
+const textoResultado = document.querySelector(".texto-resultado");
+
+const perguntas = [
+    {
+        enunciado: "Você escuta seus amigos sobre um tal de chatgepeto, um gerador de texto que supostamente sabe tudo! ",
+        alternativas: [
+            "opção A:Isso aí é bobagem (não averigua)",
+            "opção B: Que interessante, vou pesquisar sobre (faz uma pesquisa no google)"
+        ]
+    },
+    {
+        enunciado: "Ao pesquisar sobre a ia você encontra duas correntes de pensamento, uma demoniza a ferramenta e outra a endeusa. Como proceder?",
+        alternativas: [
+            "opção A:O chá de gepetê é obra do diabo e tirará o emprego de progamadores!",
+            "opção B: Essa ferramenta é interessante, automatizará muitas tarefas mas o fator humano é indispensável"
+        ]
+    },
+    {
+        enunciado: "Com sua perspectiva de vida formada, você toma uma decisão!",
+        alternativas: [
+            "opção A: Vou jogar esse computador no córrego e morar em uma reserva extrativista, longe do chão de gê patê(fim da história)",
+            "opção B: Vou usar essa ferramenta para achar erros de gramática e apontar faltas de concisão em minhas redações"
+        ]
+    },
+    {
+        enunciado: "Depois de corrigir sua redação, você pensa em maneiras de se entreter com a ia",
+        alternativas: [
+            "opção BI: vou usar a ia para criar uma receita com alimentos aleatórios da geladeira(fim da história)",
+            "opção BII: vou praticar cyberbullying HAHAHA"
+        ]
+    },
+    {
+        enunciado: "O cyberbullying tem sucesso, infelizmente a polícia federal rastreia seus tweets e aparece na porta da sua casa.",
+        alternativas: [
+            "opção I:JAMAIS ME LEVARÃO! (você MORRE)",
+            "opção II: Não fui eu! (coloca a culpa na sua avó e se salva, pelo ip ser o mesmo)"
+        ]
+    }
+];
